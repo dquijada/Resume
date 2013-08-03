@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:src="@drawable/ico_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:text="Computer Engineer"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:layout_marginLeft="2dp"
+            android:textColor="#ff323030"
+            android:alpha="0.7" />
+        <TextView
+            android:text="Andres Bello Catholic University"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/university"
+            android:layout_marginLeft="2dp"
+            android:textColor="#ff989898" />
+        <TextView
+            android:text="Caracas-Venezuela"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/university_location"
+            android:layout_marginLeft="2dp"
+            android:textColor="#ff989898" />
+        <TextView
+            android:text="4/15/2007 - 6/10/2012"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/university_duration"
+            android:layout_marginLeft="2dp"
+            android:textColor="#ff989898" />
+    </LinearLayout>
+</LinearLayout>

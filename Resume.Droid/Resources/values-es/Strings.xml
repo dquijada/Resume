@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">Resume</string>
+	<string name="DrawerOpen">Abrir</string>
+	<string name="DrawerClose">Cerrar</string>	
+	<string name="ResumeUrl">http://resumecv.azurewebsites.net/api/resume/spanish</string>			
+	<string name="ObjectiveTitle">Objetivo</string>				
+	<string name="AddressTitle">Dirección</string>			
+	<string name="MenuItem1">Información Personal</string>
+	<string name="MenuItem2">Educación</string>
+	<string name="MenuItem3">Experiencia</string>
+	<string name="MenuItem4">Conocimiento</string>
+	<string name="SelectOption">Seleccione una opción</string>
+	<string name="SomethingWrong">Algo malo ha sucedido</string>
+	
+</resources>

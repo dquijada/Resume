@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:src="@drawable/ico_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minWidth="25px">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/job_name"
+            android:text="Web Developer (Back-end), Summumnet"
+            android:layout_marginLeft="2dp"
+            android:textColor="#ff323030"
+            android:alpha="0.7"
+            android:textSize="13dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textColorHighlight="#ffffffff" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/job_duration"
+            android:layout_marginLeft="2dp"
+            android:text="9/17/2011-10/15/2012"
+            android:textColor="#ff989898"
+            android:textSize="12dp"
+            android:textColorHighlight="#ffffffff" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/job_location"
+            android:layout_marginLeft="2dp"
+            android:text="Caracas-Venezuela"
+            android:textColor="#ff989898"
+            android:textSize="12dp"
+            android:textColorHighlight="#ffffffff" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+/*English*/
+"MenuItem1" = "Personal Information";
+"MenuItem2" = "Education";
+"MenuItem3" = "Experience";
+"MenuItem4" = "Knowledge";
+"AddressTitle" = "Address";
+"ObjectiveTitle" = "Objective";
+"ResumeUrl" = "http:\/\/resumecv.azurewebsites.net/api/resume/english";
+"Fail" = "Something wrong happened";

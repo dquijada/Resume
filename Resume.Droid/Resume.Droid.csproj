@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29458EB5-7185-455C-A6BC-475B4F955589}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Resume.Droid</RootNamespace>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AssemblyName>Resume.Droid</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Android.Support.v4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Fragments\InfoFragment.cs" />
+    <Compile Include="Fragments\ExperienceFragment.cs" />
+    <Compile Include="Fragments\EducationFragment.cs" />
+    <Compile Include="Fragments\KnowledgeFragment.cs" />
+    <Compile Include="MyActionBarDrawerToggle.cs" />
+    <Compile Include="Adapters\EducationAdapter.cs" />
+    <Compile Include="Adapters\ExperienceAdapter.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Adapters\NavigationDrawerAdapter.cs" />
+    <Compile Include="CustomListActivity.cs" />
+    <Compile Include="Adapters\CustomListAdapter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_drawer_light.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_drawer_light.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_drawer_light.png" />
+    <AndroidResource Include="Resources\layout\InfoLayout.axml" />
+    <AndroidResource Include="Resources\layout\Education.axml" />
+    <AndroidResource Include="Resources\layout\EducationRow.axml" />
+    <AndroidResource Include="Resources\layout\Experience.axml" />
+    <AndroidResource Include="Resources\layout\ExperienceRow.axml" />
+    <AndroidResource Include="Resources\drawable\ab_background_textured_resume.xml" />
+    <AndroidResource Include="Resources\drawable\btn_cab_done_resume.xml" />
+    <AndroidResource Include="Resources\drawable\pressed_background_resume.xml" />
+    <AndroidResource Include="Resources\drawable\progress_horizontal_resume.xml" />
+    <AndroidResource Include="Resources\drawable\selectable_background_resume.xml" />
+    <AndroidResource Include="Resources\drawable\spinner_background_ab_resume.xml" />
+    <AndroidResource Include="Resources\drawable\tab_indicator_ab_resume.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_bottom_solid_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_solid_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_stacked_solid_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_texture_tile_resume.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_transparent_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_cab_done_default_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_cab_done_focused_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_cab_done_pressed_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cab_background_bottom_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cab_background_top_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\list_focused_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\menu_dropdown_panel_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progress_bg_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progress_primary_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progress_secondary_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_default_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_disabled_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_focused_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_pressed_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_selected_focused_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_selected_pressed_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_selected_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_unselected_focused_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_unselected_pressed_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_unselected_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_bottom_solid_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_solid_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_stacked_solid_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_texture_tile_resume.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_transparent_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\btn_cab_done_default_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\btn_cab_done_focused_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\btn_cab_done_pressed_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\cab_background_bottom_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\cab_background_top_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\list_focused_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\menu_dropdown_panel_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progress_bg_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progress_primary_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progress_secondary_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_default_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_disabled_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_focused_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_pressed_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_selected_focused_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_selected_pressed_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_selected_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_unselected_focused_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_unselected_pressed_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_unselected_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_bottom_solid_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_solid_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_stacked_solid_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_texture_tile_resume.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_transparent_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btn_cab_done_default_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btn_cab_done_focused_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btn_cab_done_pressed_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cab_background_bottom_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cab_background_top_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\list_focused_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\menu_dropdown_panel_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progress_bg_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progress_primary_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progress_secondary_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_default_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_disabled_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_focused_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_pressed_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_selected_focused_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_selected_pressed_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_selected_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_unselected_focused_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_unselected_pressed_resume.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_unselected_resume.9.png" />
+    <AndroidResource Include="Resources\values\colors_resume.xml" />
+    <AndroidResource Include="Resources\values\styles_resume.xml" />
+    <AndroidResource Include="Resources\values-es\Strings.xml" />
+    <AndroidResource Include="Resources\drawable\daniel.png" />
+    <AndroidResource Include="Resources\drawable\header_info.xml" />
+    <AndroidResource Include="Resources\drawable\ico_education.png" />
+    <AndroidResource Include="Resources\layout\MenuListItem.axml" />
+    <AndroidResource Include="Resources\drawable\ico_menu_arrow.png" />
+    <AndroidResource Include="Resources\drawable\ico_work.png" />
+    <AndroidResource Include="Resources\drawable\list_item_pressed_transparent.xml" />
+    <AndroidResource Include="Resources\drawable\list_item_pressed.xml" />
+    <AndroidResource Include="Resources\layout\CustomList.axml" />
+    <AndroidResource Include="Resources\layout\CustomListRow.axml" />
+    <AndroidResource Include="Resources\drawable\app_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\app_icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\app_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\app_icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Resume.Core\Resume.Droid.Core.csproj">
+      <Project>{964108CB-E987-42F6-B206-4BCABC77CF20}</Project>
+      <Name>Resume.Droid.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fragments\" />
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-mdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Adapters\" />
+    <Folder Include="Resources\values-es\" />
+  </ItemGroup>
+</Project>

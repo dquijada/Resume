@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="fitpulsetheme">
+  <name>Fitpulse Theme and Showcase App</name>
+  <publisher>AppDesignVault</publisher>
+  <publisher-url>http://www.appdesignvault.com/</publisher-url>
+  <version>1.0</version>
+  <summary>A sporty theme, and a sample iOS app that showcases the theme and includes several custom UI controls.</summary>
+  <screenshots>
+    <img src="screenshots/00.png" title="00" />
+    <img src="screenshots/01.png" title="01" />
+    <img src="screenshots/02.png" title="02" />
+  </screenshots>
+  <samples>
+    <sample id="FitpulseTheme.Sample.iOS">
+      <name>iOS Sample</name>
+      <summary>iOS Sample</summary>
+    </sample>
+  </samples>
+</component>
