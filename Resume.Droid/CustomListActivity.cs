@@ -12,7 +12,7 @@ using Resume.Core;
 
 namespace Resume.Droid
 {
-	[Activity (Label = "CustomListActivity")]			
+	[Activity (Label = "CustomListActivity", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]			
 	public class CustomListActivity : ListActivity
 	{
 		protected override void OnCreate (Bundle bundle)

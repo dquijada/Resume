@@ -11,7 +11,7 @@ using Resume.Core;
 
 namespace Resume.Droid
 {
-	[Activity (Label = "Resume", MainLauncher = true)]
+	[Activity (Label = "Resume", MainLauncher = true, ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
 	public class MainActivity : Activity
 	{
 		string[] optionNames;
