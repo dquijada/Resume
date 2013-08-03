@@ -84,8 +84,8 @@
     <Reference Include="System.Core" />
     <Reference Include="monotouch" />
     <Reference Include="MonoTouch.Dialog-1" />
-    <Reference Include="FlyoutNavigation">
-      <HintPath>..\Components\flyoutnavigation-1.1\lib\ios\FlyoutNavigation.dll</HintPath>
+    <Reference Include="BTProgressHUD">
+      <HintPath>..\Components\btprogresshud-1.3\lib\ios\BTProgressHUD.dll</HintPath>
     </Reference>
     <Reference Include="FitpulseTheme.Controls.iOS.ProgressBar">
       <HintPath>..\Components\fitpulsetheme-1.0\lib\ios\FitpulseTheme.Controls.iOS.ProgressBar.dll</HintPath>
@@ -99,8 +99,8 @@
     <Reference Include="FitpulseTheme.iOS">
       <HintPath>..\Components\fitpulsetheme-1.0\lib\ios\FitpulseTheme.iOS.dll</HintPath>
     </Reference>
-    <Reference Include="BTProgressHUD">
-      <HintPath>..\Components\btprogresshud-1.3\lib\ios\BTProgressHUD.dll</HintPath>
+    <Reference Include="FlyoutNavigation">
+      <HintPath>..\Components\flyoutnavigation-1.1\lib\ios\FlyoutNavigation.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
